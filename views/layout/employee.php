@@ -1,0 +1,103 @@
+<nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
+  <a class="navbar-brand" href="../dashboard/index.php">HOME</a>
+  <ul class="navbar-nav">
+
+  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        SELL
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="../sell/index.php">INVOICE LIST</a>
+        <a class="dropdown-item" href="../sell/create.php">NEW INVOICE</a>
+      </div>
+    </li>
+
+    <li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+  BORROW
+</a>
+<div class="dropdown-menu">
+  <a class="dropdown-item" href="../rent/index.php">BORROW LIST</a>
+  <a class="dropdown-item" href="../rent/create.php"> NEW BORROW LIST</a>
+</div>
+</li>
+
+
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        BOOK
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="../book/index.php">ALl BOOKS</a>
+        <a class="dropdown-item" href="../book/create.php">CREATE NEW BOOKS</a>
+        <a class="dropdown-item" href="../old price history/index.php">PRICE HISTORY</a>
+      </div>
+
+    </li>
+
+    <li class="nav-item dropdown">
+
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        CATEGORY
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="../category/index.php">LIST OF CATEGORIES</a>
+        <a class="dropdown-item" href="../category/create.php">CREATE NEW CATEGORY LIST</a>
+      </div>
+      </li>
+
+    <li class="nav-item dropdown">
+
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        PUBLISHER
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="../publisher/index.php">LIST OF PUBLISHERS</a>
+        <a class="dropdown-item" href="../publisher/create.php">CREATE NEW PUBLISHER LIST</a>
+      </div>
+
+    </li>
+
+    <li class="nav-item dropdown">
+
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        AUTHOR
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="../author/index.php">LIST OF AUTHORS</a>
+        <a class="dropdown-item" href="../author/create.php">CREATE NEW AUTHOR LIST</a>
+      </div>
+
+    </li>
+
+    <li class="nav-item dropdown">
+
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        CUSTOMER
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="../customer/index.php">LIST OF CUSTOMERS</a>
+        <a class="dropdown-item" href="../customer/create.php">ADD NEW CUSTOMER</a>
+      </div>
+
+    
+
+    
+    <li class="nav-item dropdown">
+
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        BOOK TYPE
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="../book type/index.php">BOOK TYPE LIST</a>
+        <a class="dropdown-item" href="../book type/create.php">CREATE NEW BOOK TYPE LIST</a>
+      </div>
+    </li>
+
+    <li class="nav-item active">
+      <a class="nav-link" href="#">LOGOUT</a>
+    </li>
+  </ul>
+</nav>
